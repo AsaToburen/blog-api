@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GxsCRJ4mD4fs6NRiyixDyBWcJwJXK6lXxRbZCXaO28UzUPL7c/L732UrSSLRXqprULxXUuTrULxpmb/srB5qU1Yw29R5K/7/yjn+uve2O1FT1qAxMl2UWwnhgKk6O5/233WVCac0xupI2dhzf1b7ypAXmfKQRsQgPTFc9Ll9iI1A9Wxxgtu02SH+qmHPl5AdSuHT9XK0FtlvHtzRlmcPD0U3uLpBSAc3jYHLHkb6kYRH5BYQ+zAVgleoouFurT3ENr85qDpuSO+mFo7MwEmUR5JHaF4rt3BmHeYehpsZk1pAn0AGJSH6hwOeP7coeUONHcqHYtr0F8hxgkO4CqARR2olRO9BmI9oKQKmsffirEoJsgqLskrHpRufg6JYyP/2AVrw0Xq5Hol/Qwx0fwffvt9gT9HR1f/rhiQAl1JiYa7VgacOcoIXBzYSYSowWSBOohN72eVlX7P1IjKYBW17OsaVlN3SqgL1XL0LJkuPO749hHphy/l0RoJ9Lb6lQdM5tYUQTjrJSCpiY4hSoO3fxmCEu/VLEXZvrXA2hTakeV7V/Xq+miW1Wo51Z4rjHZvLLeVYtLAHTRxvK/gr1SXd+oYhN6U5G8sX/3a2HdWPfskDXZCbRDSIl1Ec7Im4e+tGIeyrQybLBY86CvI1LMxUEQhnDfKGHl/UegI3pG9s6wU=
+  app: cryptic-taiga-66947
+  on:
+    repo: AsaToburen/blog-api
